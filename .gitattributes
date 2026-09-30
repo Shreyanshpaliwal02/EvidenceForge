@@ -1,0 +1,8 @@
+# Normalise line endings so the folder behaves the same on Windows and macOS.
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.png binary
+*.ico binary
+*.sqlite3 binary
+*.zip binary
